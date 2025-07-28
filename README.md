@@ -1,36 +1,36 @@
 # Odoocker: The Ultimate Odoo Docker Framework
 
-Welcome to Odoocker, a game-changer in the world of Odoo Development and Deployment. This tool is meticulously crafted to revolutionize your experience with Odoo, ensuring simplicity, efficiency, and a top-tier development journey. And while it’s rooted in the principles of the Official Odoo Docker setup, it goes several steps beyond.
+Bienvenido a Odoocker, una herramienta revolucionaria en el mundo del desarrollo e implementación de Odoo. Esta herramienta está meticulosamente diseñada para revolucionar tu experiencia con Odoo, garantizando simplicidad, eficiencia y un desarrollo de primer nivel. Y si bien se basa en los principios de la configuración oficial de Docker de Odoo, va mucho más allá.
 
-Whether you're using the **Community** or **Enterprise** edition, this **Docker** solution is tailored just for you.
+Ya sea que utilice la edición **Community** o **Enterprise**, esta solución **Docker** está diseñada específicamente para usted.
 
-**Best part of this?** You don't need any prior knowledge of **Docker**, **Odoo** or any technology that involves this Framework. We stick to Docker philosophy: **Use it, then learn about it.**
+¿Lo mejor de esto? No necesitas conocimientos previos de Docker, Odoo ni ninguna tecnología relacionada con este framework. Nos atenemos a la filosofía de Docker: úsalo y luego aprende.
 
-Feel free to post a Pull Request to continue enhancing this project.
+No dudes en publicar una solicitud de extracción para seguir mejorando este proyecto.
 
-### Why Odoocker Stands Out:
-1. 🌐 **Universal:** Suitable for both Odoo Community and Enterprise editions.
-2. 📦 **Easy Setup:** Clone, configure `.env` file, and you're ready to deploy.
-3. 🔒 **Secure:** Automatic SSL certificate renewal to keep your data safe (for production only).
+### ¿Por qué Odoocker destaca?:
+1. 🌐 **Universal:** Adecuado para las ediciones Odoo Community y Enterprise.
+2. 📦 **Configuración fácil:** Clone, configure el archivo `.env` y estará listo para implementar.
+3. 🔒 **Seguro:** Renovación automática del certificado SSL para mantener sus datos seguros (solo para producción).
 
-In essence, Odoocker isn't just another tool, it's a philosophy. So, whether you’re a seasoned Odoo veteran or just starting your journey, Odoocker is here to make your journey easier.
+En esencia, Odoocker no es solo una herramienta más, es una filosofía. Así que, tanto si eres un veterano de Odoo como si estás empezando, Odoocker está aquí para facilitarte el proceso.
 
-## Contents
+## Contenido
 
-- [Quick Setup Guide](#quick-setup-guide)
-- [The `.env` File](#the-env-file)
-  - [Environment-based actions](#environment-based-actions)
-    - [1. Fresh or Restore](#1-fresh-or-restore)
+- [Guía de configuración rápida](#quick-setup-guide)
+- [El archivo `.env`](#the-env-file)
+  - [Acciones base-desarrollo](#environment-based-actions)
+    - [1. RFeciente o restaurado](#1-fresh-or-restore)
     - [2. Local](#2-local)
-    - [3. Debug](#3-debug)
-    - [4. Testing](#4-testing)
-    - [5. Full](#5-full)
-    - [6. Staging](#6-staging)
-    - [7. Production](#7-production)
-- [Pro(d) Tips](#prod-tips)
-  - [1. Search through all Addons at once](#1-search-through-all-addons-at-once)
-  - [2. Define the following aliases](#2-define-the-following-aliases)
-  - [3. NEVER run **docker-compose down -v** in Production](#3-never-run-docker-compose-down--v-in-production)
+    - [3. Depurar](#3-debug)
+    - [4. Pruebas](#4-testing)
+    - [5. Completo](#5-full)
+    - [6. Demostracion](#6-staging)
+    - [7. Producion](#7-production)
+- [Pro(d) Consejos](#prod-tips)
+  - [1. Busque entre todos los complementos a la vez](#1-search-through-all-addons-at-once)
+  - [2. Define los siguientes alias](#2-define-the-following-aliases)
+  - [3. NUNCA ejecute **docker-compose down -v** en producción](#3-never-run-docker-compose-down--v-in-production)
   - [4. Odoo Shell](#4-odoo-shell)
   - [5. Odoo Scaffold](#5-odoo-scaffold)
   - [6. Colorize your branches](#6-colorize-your-branches)
